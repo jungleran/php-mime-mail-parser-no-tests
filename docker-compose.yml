@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+
+  mail:
+    image: jungleran/drupal-dev:9.3.5
+    container_name: mail
+    volumes:
+      - ./:/mail
